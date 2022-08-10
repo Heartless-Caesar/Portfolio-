@@ -16,7 +16,7 @@ const Projects = () => {
               style={{ width: "35rem" }}
               key={i}
             >
-              <div className="card-body  px-1 py-1">
+              <div className="card-body  px-1 py-1 ">
                 <div className="card-img-top">
                   <a href={reference}>
                     <img
@@ -26,7 +26,7 @@ const Projects = () => {
                     />
                   </a>
                 </div>
-                <div className="card-title text-center my-3">
+                <div className="card-title text-center my-3 text-light">
                   <h4 className="lead display-6">{name}</h4>
                 </div>
                 <div className="card-text" style={{ color: "black" }}>

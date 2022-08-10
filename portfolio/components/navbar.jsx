@@ -16,7 +16,17 @@ const Navbar = () => {
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                Link
+                Projetos
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                Tecnologias
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                Referências
               </a>
             </li>
           </ul>

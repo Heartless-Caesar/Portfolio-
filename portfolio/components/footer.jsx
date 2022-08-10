@@ -1,9 +1,9 @@
 import React from "react";
-import { AiFillLinkedin, AiFillGithub, AiOutlineGithub } from "react-icons/ai";
+import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 
 const Footer = () => {
   return (
-    <div className="footer mx-5 text-dark">
+    <div className="footer mx-5 text-light">
       <div className="text-center mb-3">
         <h4 className="display-6 lead">
           Entre em contato por outras plataformas

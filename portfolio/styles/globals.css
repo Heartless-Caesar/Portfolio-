@@ -54,6 +54,11 @@ a {
   background-color: rgba(117, 117, 117, 0.9);
   border-radius: 5px;
 }
+
+.tech-div {
+  background-color: rgba(117, 117, 117, 0.9);
+  border-radius: 5px;
+}
 /* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

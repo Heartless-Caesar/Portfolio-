@@ -28,9 +28,17 @@ const Tecnologias = () => {
         <div className="row">
           <div className="col">
             <h3>Programming Languages</h3>
+            <li className="list-item">C#</li>
+            <li className="list-item">Javascript</li>
+            <li className="list-item">Java</li>
           </div>
           <div className="col">
-            <h3>Tools</h3>
+            <h3>Frameworks</h3>
+            <li className="list-item">.NET</li>
+            <li className="list-item">React JS</li>
+            <li className="list-item">Next JS</li>
+            <li className="list-item">Node JS</li>
+            <li className="list-item">Express JS</li>
           </div>
         </div>
       </div>

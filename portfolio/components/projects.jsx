@@ -4,7 +4,7 @@ import { projects } from "../assets/data/projects";
 const Projects = () => {
   return (
     <div className="projects-div mx-5 my-5">
-      <h4 className="display-5 text-center mt-5">
+      <h4 className="display-5 text-center mt-5 text-light">
         Alguns exemplos de projetos que já realizei
       </h4>
       <div className="d-flex justify-content-between align-content-center px-5 mt-4">
@@ -29,7 +29,10 @@ const Projects = () => {
                 <div className="card-title text-center my-3 text-light">
                   <h4 className="lead display-6">{name}</h4>
                 </div>
-                <div className="card-text" style={{ color: "black" }}>
+                <div
+                  className="card-text text-light "
+                  style={{ color: "black" }}
+                >
                   <div className="row">
                     <div className="col-12 text-center">
                       <h4 className="lead">Status: {status}</h4>

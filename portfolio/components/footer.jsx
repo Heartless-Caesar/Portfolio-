@@ -9,7 +9,7 @@ const Footer = () => {
           Entre em contato por outras plataformas
         </h4>
         <button className="btn btn-outline-dark mx-1 ">
-          <AiFillGithub size={40} />
+          <AiFillGithub size={40} color="white" />
         </button>
         <button className="btn btn-outline-primary mx-1">
           <AiFillLinkedin size={40} />

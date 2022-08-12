@@ -18,7 +18,7 @@ const Projects = () => {
             >
               <div className="card-body  px-1 py-1 ">
                 <div className="card-img-top">
-                  <a href={reference}>
+                  <a href={reference} target="_blank">
                     <img
                       src={image.src}
                       alt="image-here"

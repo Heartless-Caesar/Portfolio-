@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <div className="projects-div mx-5 my-5">
       <h4 className="display-5 text-center mt-5 text-light">
-        Alguns exemplos de projetos que já realizei
+        Here are some major projects I've participated in
       </h4>
       <div className="d-flex justify-content-between align-content-center px-5 mt-4">
         {projects.map((item, i) => {

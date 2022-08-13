@@ -3,22 +3,26 @@ import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 
 const Footer = () => {
   return (
-    <div className="footer mx-5 text-light">
-      <div className="text-center mb-3">
-        <h4 className="display-6 lead">
-          Entre em contato por outras plataformas
-        </h4>
-        <button className="btn btn-outline-dark mx-1 ">
-          <AiFillGithub size={40} color="white" />
-        </button>
-        <button className="btn btn-outline-primary mx-1">
-          <AiFillLinkedin size={40} />
-        </button>
-      </div>
+    <div className="footer text-dark fixed-bottom">
+      <div className="text-center mb-3"></div>
       <div className="direct-contact text-center mb-2">
-        <h5 className="lead">
-          Entre em contato por email: <b>joaovictorcsatu@gmail.com</b>
-        </h5>
+        <p className="lead">
+          Get in contect by email: <b>joaovictorcsatu@gmail.com </b>
+          or{" "}
+          <button className="btn btn-outline-dark mx-1 ">
+            <a href="https://github.com/Heartless-Caesar" target="_blank">
+              <AiFillGithub size={20} color="black" />
+            </a>
+          </button>
+          <button className="btn btn-outline-primary mx-1">
+            <a
+              href="https://www.linkedin.com/in/joaovictorcesaandrade/"
+              target="_blank"
+            >
+              <AiFillLinkedin size={20} />
+            </a>
+          </button>
+        </p>
       </div>
     </div>
   );

@@ -7,7 +7,7 @@ const Databases = () => {
         className="text-center display-3 text-light mx-5"
         style={{ marginTop: "10%" }}
       >
-        Bancos de dados
+        Databases
       </div>
       <div className="d-flex justify-content-center flex-wrap ">
         {databases.map((i) => {

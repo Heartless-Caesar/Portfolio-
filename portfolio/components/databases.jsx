@@ -9,12 +9,12 @@ const Databases = () => {
       >
         Bancos de dados
       </div>
-      <div className="d-flex justify-content-center flex-wrap">
+      <div className="d-flex justify-content-center flex-wrap ">
         {databases.map((i) => {
           const { img, docs, description } = i;
 
           return (
-            <div className="card project-div p-3 m-5">
+            <div className="card p-3 m-5 data-div">
               <div className="card-img-top text-center">
                 <img src={img} alt="IDE image" className="tech-img pl-4" />
               </div>

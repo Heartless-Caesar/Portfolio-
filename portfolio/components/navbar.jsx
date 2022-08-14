@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <>
+    <div>
       <nav
         className="navbar navbar-expand-lg  navbar-dark mb-2"
         style={{ backgroundColor: "transparent", color: "white" }}
@@ -25,6 +25,11 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
+                  Projetos
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">
                   Referências
                 </a>
               </li>
@@ -32,7 +37,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-    </>
+    </div>
   );
 };
 

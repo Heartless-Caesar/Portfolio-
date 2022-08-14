@@ -7,12 +7,12 @@ import Footer from "../components/footer";
 
 const Tecnologias = () => {
   return (
-    <>
+    <div className="bg-dark">
       <Navbar />
       <IDE />
       <Databases />
       <Footer />
-    </>
+    </div>
   );
 };
 

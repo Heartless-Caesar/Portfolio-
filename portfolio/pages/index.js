@@ -6,7 +6,7 @@ import Footer from "../components/footer";
 
 export default function Home() {
   return (
-    <div className="text-light app">
+    <div className="app">
       <Navbar />
       <Body />
       <Projects />

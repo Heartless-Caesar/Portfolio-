@@ -14,7 +14,7 @@ const Databases = () => {
           const { img, docs, description } = i;
 
           return (
-            <div className="card bg-dark border-light text-light p-3 m-5 data-div">
+            <div className="card bg-light border-dark text-dark p-3 m-5 data-div">
               <div className="card-img-top text-center">
                 <img src={img} alt="IDE image" className="tech-img pl-4" />
               </div>

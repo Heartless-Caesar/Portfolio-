@@ -16,7 +16,7 @@ const IDE = () => {
               </div>
               <div className="card-text">
                 <p className="mt-3 lead">
-                  You can view the documentation
+                  You can view the documentation{" "}
                   <a href={docs} target="_blank">
                     here
                   </a>

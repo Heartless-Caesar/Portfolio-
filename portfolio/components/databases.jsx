@@ -2,7 +2,7 @@ import React from "react";
 import databases from "../assets/data/databases";
 const Databases = () => {
   return (
-    <>
+    <div className="mb-5">
       <div
         className="text-center display-3 text-light mx-5"
         style={{ marginTop: "10%" }}
@@ -14,7 +14,7 @@ const Databases = () => {
           const { img, docs, description } = i;
 
           return (
-            <div className="card p-3 m-5 data-div">
+            <div className="card bg-dark border-light text-light p-3 m-5 data-div">
               <div className="card-img-top text-center">
                 <img src={img} alt="IDE image" className="tech-img pl-4" />
               </div>
@@ -31,7 +31,7 @@ const Databases = () => {
           );
         })}
       </div>
-    </>
+    </div>
   );
 };
 

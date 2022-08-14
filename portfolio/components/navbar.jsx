@@ -3,34 +3,36 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav
-      class="navbar navbar-expand-lg  navbar-dark mb-5"
-      style={{ backgroundColor: "transparent", color: "white" }}
-    >
-      <div class="container-fluid">
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <Link href={"/"} aria-current="page">
-                <a class="nav-link" href="#">
-                  Home
+    <>
+      <nav
+        className="navbar navbar-expand-lg  navbar-dark mb-2"
+        style={{ backgroundColor: "transparent", color: "white" }}
+      >
+        <div className="container-fluid">
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <li className="nav-item">
+                <Link href={"/"} aria-current="page">
+                  <a className="nav-link" href="#">
+                    Home
+                  </a>
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link href={"/tecnologias"} aria-current="page">
+                  <a className="nav-link">Tecnologias</a>
+                </Link>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  Referências
                 </a>
-              </Link>
-            </li>
-            <li class="nav-item">
-              <Link href={"/tecnologias"} aria-current="page">
-                <a class="nav-link">Tecnologias</a>
-              </Link>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                Referências
-              </a>
-            </li>
-          </ul>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </>
   );
 };
 

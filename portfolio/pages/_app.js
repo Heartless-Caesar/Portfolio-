@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import Head from "next/head";
 function MyApp({ Component, pageProps }) {
   return (
-    <div className="app">
+    <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link
@@ -21,7 +21,7 @@ function MyApp({ Component, pageProps }) {
         ></link>
       </Head>
       <Component {...pageProps} />
-    </div>
+    </>
   );
 }
 

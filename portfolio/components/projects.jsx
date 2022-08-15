@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import { projects } from "../assets/data/projects";
 
 const Projects = () => {
@@ -18,13 +19,15 @@ const Projects = () => {
             >
               <div className="card-body  px-1 py-1 ">
                 <div className="card-img-top">
-                  <a href={reference} target="_blank">
-                    <img
-                      src={image.src}
-                      alt="image-here"
-                      className="project-image"
-                    />
-                  </a>
+                  <Link href="/projects">
+                    <a>
+                      <img
+                        src={image.src}
+                        alt="image-here"
+                        className="project-image"
+                      />
+                    </a>
+                  </Link>
                 </div>
                 <div className="card-title text-center my-3 text-light">
                   <h4 className="lead display-6">{name}</h4>

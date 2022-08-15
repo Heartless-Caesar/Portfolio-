@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div>
       <nav
-        className="navbar navbar-expand-lg  navbar-dark mb-2"
+        className="navbar navbar-expand-lg bg-dark navbar-dark mb-2"
         style={{ backgroundColor: "transparent", color: "white" }}
       >
         <div className="container-fluid">
@@ -20,17 +20,12 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <Link href={"/tecnologias"} aria-current="page">
-                  <a className="nav-link">Tecnologias</a>
+                  <a className="nav-link">Technologies</a>
                 </Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Projetos
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Referências
+                  Projects
                 </a>
               </li>
             </ul>

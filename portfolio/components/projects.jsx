@@ -3,7 +3,7 @@ import { projects } from "../assets/data/projects";
 
 const Projects = () => {
   return (
-    <div className="projects-div mx-5 my-5">
+    <div className="projects-div bg-dark mx-5 my-5">
       <h4 className="display-5 text-center mt-5 text-light">
         Here are some major projects I've participated in
       </h4>

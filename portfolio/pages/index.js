@@ -6,7 +6,7 @@ import Footer from "../components/footer";
 
 export default function Home() {
   return (
-    <div className="app">
+    <div className="app bg-dark">
       <Navbar />
       <Body />
       <Projects />

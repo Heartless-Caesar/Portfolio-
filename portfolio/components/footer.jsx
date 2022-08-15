@@ -3,7 +3,7 @@ import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 
 const Footer = () => {
   return (
-    <div className="direct-contact footer text-dark  text-center p-2 fixed-bottom">
+    <div className="direct-contact footer text-dark  text-center p-2">
       <div className="">
         Get in contect by email: <b>joaovictorcsatu@gmail.com </b>
         or{" "}

@@ -3,6 +3,7 @@ import Navbar from "../components/navbar";
 import IDE from "../components/ides";
 import Databases from "../components/databases";
 import Footer from "../components/footer";
+import Frameworks from "../components/frameworks";
 //TODO: MAKE ALL BUTTONS SAME WIDTH
 
 const Tecnologias = () => {
@@ -11,6 +12,7 @@ const Tecnologias = () => {
       <Navbar />
       <IDE />
       <Databases />
+      <Frameworks />
       <Footer />
     </div>
   );

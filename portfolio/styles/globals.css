@@ -36,7 +36,12 @@ a {
 * {
   box-sizing: border-box;
 }
-
+.project-body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
 .data-div {
   height: 100px;
   width: 80%;

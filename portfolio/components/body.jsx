@@ -10,10 +10,10 @@ const Body = () => {
           <h3 className="display-4 mt-3">John Victor Cesar</h3>
           <div className="content-body col-8">
             <p className="lead about-me">
-              I'm an aspiring software developer who&aposs got experience in
-              projects, of all scopes, as a freelancer.
+              I&apos;m an aspiring software developer who&apos;s got experience
+              in projects, of all scopes, as a freelancer.
               <br />
-              The stacks I &aposm more comfortable with are Next JS & Node JS
+              The stacks I&apos;m more comfortable with are Next JS & Node JS
               but there are more frameworks I have practice with.{" "}
             </p>
           </div>

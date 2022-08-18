@@ -32,7 +32,23 @@ a {
   color: white;
   border-bottom: 100%;
 }
+/* ----------IMAGE CONFIG--------- */
+.imageContainer {
+  width: 100%;
+  margin: 25px 25px 25px 25px;
+}
 
+.imageContainer > div {
+  position: relative !important;
+}
+
+.image {
+  object-fit: contain;
+  width: 100px !important;
+  position: relative !important;
+  height: unset !important;
+}
+/* -------------------------------- */
 * {
   box-sizing: border-box;
 }

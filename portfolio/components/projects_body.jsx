@@ -9,8 +9,8 @@ const ProjectBody = () => {
       <div className="text-light">
         <h5 className="display-5">Kanri ERP</h5>
         <p className="lead">
-          This project is privated due to it's nature. The following will
-          describe what I've contributed to said project.
+          This project is privated due to it&apos;s nature. The following will
+          describe what I&apos;ve contributed to said project.
         </p>
         <div className="">
           <h6 className="display-6">Stack</h6>

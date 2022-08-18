@@ -1,30 +1,29 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { projects } from "../assets/data/projects";
 
 const Projects = () => {
   return (
     <div className="projects-div bg-dark mx-5 my-5">
       <h4 className="display-5 text-center mt-5 text-light">
-        Here are some major projects I've participated in
+        Here are some major projects I&apos;ve participated in
       </h4>
-      <div className="d-flex justify-content-between align-content-center px-5 mt-4">
+      <div className="d-flex justify-content-between align-content-center px-5">
         {projects.map((item, i) => {
           const { name, status, role, stack, reference, image } = item;
           return (
-            <div
-              className="container mt-4 mb-4"
-              style={{ width: "35rem" }}
-              key={i}
-            >
-              <div className="card-body  px-1 py-1 ">
-                <div className="card-img-top">
+            <div className="mt-4 mb-4" style={{ width: "35rem" }} key={i}>
+              <div className="card-body px-5">
+                <div className="card-img-top imageContainer">
                   <Link href="/projects">
                     <a>
-                      <img
+                      <Image
                         src={image.src}
                         alt="image-here"
-                        className="project-image"
+                        className=" image"
+                        height={300}
+                        width={300}
                       />
                     </a>
                   </Link>

@@ -8,7 +8,11 @@ const Footer = () => {
         Get in contect by email: <b>joaovictorcsatu@gmail.com </b>
         or{" "}
         <button className="btn btn-outline-dark mx-1 ">
-          <a href="https://github.com/Heartless-Caesar" target="_blank">
+          <a
+            href="https://github.com/Heartless-Caesar"
+            target="_blank"
+            rel="noreferrer"
+          >
             <AiFillGithub size={20} color="black" />
           </a>
         </button>
@@ -16,6 +20,7 @@ const Footer = () => {
           <a
             href="https://www.linkedin.com/in/joaovictorcesaandrade/"
             target="_blank"
+            rel="noreferrer"
           >
             <AiFillLinkedin size={20} />
           </a>

@@ -1,18 +1,19 @@
 import React from "react";
 import frameworks from "../assets/data/frameworks";
+import Image from "next/image";
 
 const Frameworks = () => {
   return (
     <>
       <div className="text-center text-light display-3 mb-4">Frameworks</div>
       <div className="d-flex flex-wrap justify-content-center">
-        {frameworks.map((i) => {
+        {frameworks.map((i, idx) => {
           const { img, docs, description } = i;
 
           return (
-            <div className="card m-3 p-3 data-div lead">
+            <div className="card m-3 p-3 data-div lead" key={idx}>
               <div className="text-center">
-                <img
+                <Image
                   src={img}
                   alt="img-here"
                   className="tech-img card-img-top "

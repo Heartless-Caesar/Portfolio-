@@ -13,17 +13,17 @@ const Projects = () => {
         {projects.map((item, i) => {
           const { name, status, role, stack, reference, image } = item;
           return (
-            <div className="mt-4 mb-4" style={{ width: "35rem" }} key={i}>
+            <div className="mt-4 mb-4 px-5" style={{ width: "35rem" }} key={i}>
               <div className="card-body px-5">
-                <div className="card-img-top imageContainer">
+                <div className="card-img-top">
                   <Link href="/projects">
                     <a>
                       <Image
                         src={image.src}
                         alt="image-here"
-                        className=" image"
-                        height={300}
-                        width={300}
+                        className="project-image"
+                        height={1100}
+                        width={2000}
                       />
                     </a>
                   </Link>

@@ -13,7 +13,14 @@ const IDE = () => {
           return (
             <div className="card project-div bg-light mx-5 p-4 mb-3">
               <div className="card-img-top text-center">
-                <Image src={img} alt="IDE image" className="tech-img pl-4" />
+                <Image
+                  src={img}
+                  alt="IDE image"
+                  className="tech-img pl-4"
+                  width="100"
+                  height="100"
+                  priority
+                />
               </div>
               <div className="card-text">
                 <p className="mt-3 lead">

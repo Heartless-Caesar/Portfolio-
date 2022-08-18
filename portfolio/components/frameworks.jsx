@@ -16,7 +16,9 @@ const Frameworks = () => {
                 <Image
                   src={img}
                   alt="img-here"
-                  className="tech-img card-img-top "
+                  className="tech-img card-img-top"
+                  width="100"
+                  height="100"
                 />
               </div>
 

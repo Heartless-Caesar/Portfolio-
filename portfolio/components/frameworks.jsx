@@ -25,7 +25,7 @@ const Frameworks = () => {
               <div className="card-body">
                 <p className="card-text">
                   You can view the documentation{" "}
-                  <a href={docs} target="_blank">
+                  <a href={docs} target="_blank" rel="noreferrer">
                     here
                   </a>
                   <br />

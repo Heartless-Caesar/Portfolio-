@@ -7,11 +7,11 @@ const IDE = () => {
     <>
       <div className="text-center display-3 text-light mb-3">IDE &apos;s</div>
       <div className="card-container d-flex justify-content-center">
-        {IDES.map((i) => {
+        {IDES.map((i, idx) => {
           const { img, docs, description } = i;
 
           return (
-            <div className="card project-div bg-light mx-5 p-4 mb-3">
+            <div className="card project-div bg-light mx-5 p-4 mb-3" key={idx}>
               <div className="card-img-top text-center">
                 <Image
                   src={img}

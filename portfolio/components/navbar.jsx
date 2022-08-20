@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div>
       <nav
-        className="navbar navbar-expand-lg bg-dark navbar-dark mb-2"
+        className="navbar navbar-expand-lg bg-dark navbar-dark"
         style={{ backgroundColor: "transparent", color: "white" }}
       >
         <div className="container-fluid">

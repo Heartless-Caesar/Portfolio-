@@ -54,7 +54,7 @@ const ProjectBody = () => {
             Similarly to the previous mentioned project the architecture of the
             backend is REST, as such Clean Code principles were utilized.
             <br /> This project was a solo effort, as such there was extensive
-            research made into design as my frontend skills aren't the best when
+            research made into design as my frontend skills aren&apos;t the best when
             it comes to innovating visually.
           </p>
           <p>
